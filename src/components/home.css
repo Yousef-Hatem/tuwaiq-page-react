@@ -1,0 +1,252 @@
+.home {
+  width: fit-content;
+  max-width: 80%;
+  padding: 20px;
+  margin: 10rem auto;
+}
+
+.home header {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 100px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+  margin: auto;
+}
+
+.home header h1 {
+  color: #4e3797;
+  font-size: 2.5rem;
+}
+
+.home header .btns button {
+  width: 11rem;
+  height: 44px;
+  background-color: #4e3797;
+  color: #fff;
+  margin: 0 5px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.home header .btns button.btn-out {
+  background-color: #fff;
+  color: #4e3797;
+}
+
+.home header .btns button.btn-out:hover {
+  background-color: #4e3797;
+  color: #fff;
+}
+
+.home header .icon {
+  background-color: #98a2b3;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home header .icon:hover {
+  background-color: #4e3797;
+}
+
+.home .items {
+  margin-top: 4rem;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .items .item {
+  position: relative;
+  width: 384px;
+  height: 260px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 40px 20px;
+}
+
+.home .items .item img {
+  position: absolute;
+  top: -32px;
+  left: 26px;
+  border-radius: 100%;
+}
+
+.home .items .item {
+  display: flex;
+  box-shadow: 0px 4px 30px -1px #e2e4e766;
+}
+
+.home .items .item .lien {
+  width: 15px;
+  height: 100%;
+  border-radius: 0 20px 20px 0;
+}
+
+.home .items .item .content {
+  width: calc(100% - 15px);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home .items .item .content .title p {
+  margin-bottom: 10px;
+}
+
+.home .items .item .content .text .icons {
+  display: flex;
+}
+
+.home .items .item .content .text .icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.home .items .item .content .text .icon div {
+  margin-left: 10px;
+}
+
+.home .items .item .content .text .btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .items .item .content .text .btn button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background: #0000;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+/* colors */
+.home .items .item.c-1 .content .text .btn button,
+.home .items .item.c-1 .content .title p {
+  color: #c084fc;
+}
+
+.home .items .item.c-1 .lien {
+  background: #c084fc;
+}
+
+.home .items .item.c-1 .content .text .btn button:hover {
+  background: #c084fc;
+}
+
+.home .items .item.c-2 .content .text .btn button,
+.home .items .item.c-2 .content .title p {
+  color: #abadf5;
+}
+
+.home .items .item.c-2 .lien {
+  background: #abadf5;
+}
+
+.home .items .item.c-2 .content .text .btn button:hover {
+  background: #abadf5;
+}
+
+.home .items .item.c-3 .content .text .btn button,
+.home .items .item.c-3 .content .title p {
+  color: #91d8db;
+}
+
+.home .items .item.c-3 .lien {
+  background: #91d8db;
+}
+
+.home .items .item.c-3 .content .text .btn button:hover {
+  background: #91d8db;
+}
+
+.home .items .item.c-4 .content .text .btn button,
+.home .items .item.c-4 .content .title p {
+  color: #ccc;
+}
+
+.home .items .item.c-4 .lien {
+  background: #ccc;
+}
+
+.home .items .item .content .text .btn button:hover {
+  color: #fff;
+}
+
+.home .items .item.c-4 .content .text .btn button:hover {
+  color: #ccc;
+  cursor: auto;
+}
+
+.home .show-more {
+  display: block;
+  width: 142px;
+  height: 42px;
+  background-color: #0000;
+  color: #4e3797;
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 40px auto;
+  cursor: pointer;
+}
+
+.home .show-more:hover {
+  color: #fff;
+  background-color: #4e3797;
+}
+
+.installation-steps {
+  background-color: #f5f6fa;
+  text-align: center;
+  padding: 5rem 0;
+  font-weight: bold;
+}
+
+.installation-steps h1 {
+  margin-bottom: 5rem;
+  color: #4e3797;
+  font-size: 3rem;
+}
+
+.installation-steps .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.installation-steps .content .step .text {
+  width: 160px;
+  font-size: 1.25rem;
+}
+
+.installation-steps .content .step .icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin: 0 auto 20px;
+  background-color: #91d8db;
+}
+
+.installation-steps .content .road {
+  margin: 0 50px;
+}
